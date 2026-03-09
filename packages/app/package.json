@@ -27,7 +27,7 @@
     "prestart": "kill-port 3000 || true",
     "start": "next start",
     "format": "prettier --cache --write .",
-    "lint": "eslint"
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@capacitor/android": "8.2.0",
