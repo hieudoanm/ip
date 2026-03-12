@@ -144,9 +144,7 @@ const HomePage: NextPage = () => {
   }, []);
 
   return (
-    <div
-      data-theme="luxury"
-      className="relative min-h-screen overflow-hidden bg-gradient-to-br from-black via-neutral-900 to-black p-6">
+    <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-black via-neutral-900 to-black p-6">
       {/* Gold glow background */}
       <div className="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full bg-yellow-500 opacity-10 blur-3xl"></div>
       <div className="pointer-events-none absolute -right-40 -bottom-40 h-96 w-96 rounded-full bg-yellow-400 opacity-10 blur-3xl"></div>
