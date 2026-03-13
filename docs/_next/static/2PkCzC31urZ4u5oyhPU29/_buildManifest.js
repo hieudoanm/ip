@@ -11,6 +11,9 @@ self.__BUILD_MANIFEST = {
   "/_error": [
     "static/chunks/a7b39b3e7c2fe2d4.js"
   ],
+  "/app": [
+    "static/chunks/417c0b074a634ebe.js"
+  ],
   "/version": [
     "static/chunks/8f2e8e93564fd733.js"
   ],
@@ -25,6 +28,7 @@ self.__BUILD_MANIFEST = {
     "/500",
     "/_app",
     "/_error",
+    "/app",
     "/version"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
