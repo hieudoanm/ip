@@ -18,7 +18,7 @@
   "private": true,
   "scripts": {
     "docs": "rimraf docs && docsify init ./docs && touch ./docs/.nojekyll",
-    "predev": "kill-port 3000 || true",
+    "predev": "rimraf .next && kill-port 3000",
     "dev": "next dev --turbopack && tauri dev",
     "prebuild": "rimraf .next ../../docs",
     "build": "next build --turbopack",
