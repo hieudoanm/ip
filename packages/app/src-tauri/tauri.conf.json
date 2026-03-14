@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "@ip/app",
+  "productName": "IP",
   "version": "0.0.1",
   "identifier": "io.github.hieudoanm.ip",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "@ip/app",
+        "title": "IP",
         "width": 800,
         "height": 600,
         "resizable": true,
