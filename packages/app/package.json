@@ -17,17 +17,19 @@
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "private": true,
   "scripts": {
+    "lint": "eslint . --fix",
+    "format": "prettier --cache --write .",
     "docs": "rimraf docs && docsify init ./docs && touch ./docs/.nojekyll",
     "predev": "rimraf .next && kill-port 3000",
     "dev": "next dev --turbopack && tauri dev",
+    "pretest": "jest --clearCache",
+    "test": "jest",
     "prebuild": "rimraf .next ../../docs",
     "build": "next build --turbopack",
     "postbuild": "touch ../../docs/.nojekyll",
     "build:tauri": "tauri build",
     "prestart": "kill-port 3000 || true",
-    "start": "next start",
-    "format": "prettier --cache --write .",
-    "lint": "eslint . --fix"
+    "start": "next start"
   },
   "dependencies": {
     "@capacitor/android": "8.2.0",
