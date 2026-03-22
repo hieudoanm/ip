@@ -186,12 +186,10 @@ var rawFlag bool
 
 var rootCmd = &cobra.Command{
 	Use:   "ip",
-	Short: "Inspect your public IP address and location",
-	Long: `IP Inspector — pure CLI version of the IP Inspector web app.
+	Short: "Ip CLI application (utilities tools)",
+	Long:  `The ip CLI application is a comprehensive backend utility belonging to the utilities suite of tools.
 
-Fetches your public IP via ipify.org, then resolves details via
-ipinfo.io with automatic fallback to ipapi.co. Includes VPN/shared
-hosting detection and a DNS lookup subcommand.`,
+Use this root executable to manage configuring, running, and interacting with all ip-related operations securely and efficiently from your terminal.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		ip, err := fetchPublicIP()
 		if err != nil {
@@ -219,7 +217,7 @@ hosting detection and a DNS lookup subcommand.`,
 // dnsCmd performs a DNS A-record lookup via Cloudflare DoH — mirrors fetchDNS() in React
 var dnsCmd = &cobra.Command{
 	Use:   "dns <domain>",
-	Short: "DNS A-record lookup via Cloudflare DoH",
+	Short: "Ip CLI application (utilities tools)",
 	Args:  cobra.ExactArgs(1),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		domain := args[0]
