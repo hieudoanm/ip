@@ -11,9 +11,7 @@
 ## 📦 Installation
 
 ```bash
-curl -fsSL https://github.com/hieudoanm/ip/raw/refs/heads/master/packages/cli/bin/ip -o ip
-chmod +x ip
-sudo mv ip /usr/local/bin/
+curl -fsSL https://raw.githubusercontent.com/hieudoanm/ip/master/packages/cli/scripts/install.sh | bash
 ```
 
 ## 🚀 Usage
