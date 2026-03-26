@@ -32,9 +32,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@capacitor/android": "8.2.0",
-    "@capacitor/core": "8.2.0",
-    "@capacitor/ios": "8.2.0",
+    "@capacitor/android": "8.3.0",
+    "@capacitor/core": "8.3.0",
+    "@capacitor/ios": "8.3.0",
     "@tauri-apps/api": "2.10.1",
     "next": "16.2.1",
     "react": "19.2.4",
@@ -42,7 +42,7 @@
     "react-icons": "5.6.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "8.2.0",
+    "@capacitor/cli": "8.3.0",
     "@eslint/eslintrc": "3.3.5",
     "@tailwindcss/postcss": "4.2.2",
     "@tauri-apps/cli": "2.10.1",
