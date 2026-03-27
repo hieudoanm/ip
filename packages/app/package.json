@@ -29,7 +29,10 @@
     "postbuild": "touch ../../docs/.nojekyll",
     "build:tauri": "tauri build",
     "prestart": "kill-port 3000 || true",
-    "start": "next start"
+    "start": "next start",
+    "tauri": "tauri",
+    "dev:desktop": "tauri dev",
+    "build:desktop": "tauri build"
   },
   "dependencies": {
     "@capacitor/android": "8.3.0",
