@@ -1,8 +1,8 @@
 import '@ip/styles/globals.css';
-import { HeadTemplate } from '../templates/HeadTemplate';
 import type { AppProps } from 'next/app';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { FC } from 'react';
+import { HeadTemplate } from '../templates/HeadTemplate';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
